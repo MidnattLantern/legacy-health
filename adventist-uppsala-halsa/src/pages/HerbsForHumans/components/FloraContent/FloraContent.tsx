@@ -1,7 +1,22 @@
 import Styles from "./FloraContent.module.css";
-import ZigZag from "../../../../components/ZigZag/ZigZag";
+
+type ArticleProps = {
+  title: string;
+  children: React.ReactElement<HTMLLIElement> | React.ReactElement<HTMLLIElement>[];
+};
 
 const FloraContent = () => {
+    const Article = ({ title, children }: ArticleProps) => {
+        return (
+            <article>
+                <h2>{title}</h2>
+                <ul>
+                    {children}
+                </ul>
+            </article>
+        )
+    };
+
     return (
         <div className={Styles.FloraContentView}>
             <article>
@@ -139,6 +154,227 @@ const FloraContent = () => {
                     <li>Används för bronkit, laryngit, njurproblem, förkylningar, heshet, hostdämpande, mot mag- och duodenalsår, urinvägsproblem och astma</li>
                 </ul>
             </article>
+            <Article title="Grodblad (Plantago)">
+                <li>Det har använts som mat från forntida tider, bladen råa eller kokta, frön som ris</li>
+                <li>Bladen används för medicinska ändamål, när de appliceras färska på sår påskyndar de läkningen, är sammandragande och desinficerande</li>
+                <li>Bra bakteriedödande, antiinflammatorisk, sårläkande, bra mot insektsbett, används rå för mindre brännskador, blodkoaguleringsmedel, lindrar tandvärk, bra för konjunktivit, hemorroider</li>
+                <li>Dess te är ett slemlösande och hostdämpande medel, som används mot halsbränna och diarré, mot luftvägsinflammation och i form av sköljning och gurgling mot inflammation i mun- och halsslemhinnan</li>
+            </Article>
+            <Article title="Gråbo (Artemisia vulgaris)">
+                <li>För örtte används de övre blommande skotten som har en bitter smak</li>
+                <li>Dess te är utmärkt aptitförstärkare, stimulerar gallfunktionen efter feta måltider, kramplösande, anthelmintikum</li>
+                <li>Te: lägg 1-2 teskedar gråbosblad i en kopp varmt vatten, låt det stå i 2 minuter och sila sedan</li>
+                <li>Används före måltider som ett aptitstimulerande, eller efter måltider för att minska matsmältningsbesvär</li>
+                <li>Anticancer, antiinflammatorisk, avgiftande, kramplösande, leverskyddande, antioxidant, bakteriedödande, svampdödande, antihypertensiv, kolesterolsänkande</li>
+                <li>Inulin som finns i dess rötter har god effekt mot hjärnhinneinflammation, tuberkulos och epilepsi, samt hysteri, mensvärk, kramper, sömnstörningar, nervositet, amenorré, klimakteriebesvär och uppblåshet</li>
+                <li>Användning är kontraindicerad vid mag- och tarmsår</li>
+                <li>Ätbar växt</li>
+            </Article>
+            <Article title="Gullris (Solidago virgaurea)">
+                <li>Blomstjälken plockas när den börjar blomma</li>
+                <li>Innehåller flavonoider, saponiner, eterisk olja, tanniner, bitterämnen, inulin, kanelsyraderivat, dess innehåll varierar beroende på insamlingsplatsen</li>
+                <li>Diuretikum, antiinflammatorisk, kramplösande, antihypertensiv, antiparasitisk, anticancer, antioxidant, antimutagen, lipolytisk, bitter tonic, hjärtskyddande, sammandragande, hemostatisk, lugnande, förbättrar matsmältningen</li>
+                <li>Dess te används för reumatism, högt blodtryck, njursten och cystit</li>
+                <li>Det användes tidigare för sårläkning och senare för diarré, hosta, kronisk lungiflammation och tandköttssår</li>
+                <li>En läkande växt för sjukdomar i de övre luftvägarna, urinvägarna och njurarna</li>
+                <li>Klåda, kliande ögon, allergisk bihåleinflammation, gikt</li>
+                <li>Har inga kontraindikationer</li>
+            </Article>
+            <Article title="Gullviva (Primula veris)">
+                <li>Blommar tidigt på våren, dess blommor och rötter är användbara för medicinska skäl, alla typer är lika värdefulla örter</li>
+                <li>Lugnar ihållande hosta, hjälper till att bryta upp och hosta upp fast slem</li>
+                <li>Dess rot är mycket rik på saponin, som är en viktig ingrediens i många hostlindrande teer</li>
+                <li>Används vid katarr i övre luftvägarna, astmatiska, giktaktade och neuralgiska besvär, huvudvärk av nervöst ursprung och hjärtsvaghet</li>
+            </Article>
+            <Article title="Gåsört (Potentilla anserina)">
+                <li>Bladen och blommande stjälkar samlas in för medicinska</li>
+                <li>Mycket effektiv mot diarré och enterit</li>
+                <li>Dess te är ett inre kramplösande medel, förbättrar anemi, lindrar magsmärtor, bra mot tarmparasiter, mot alla typer av blödningar, nefrit, njursten, tjocktarmscancer, livmodercancer, överdriven menstruationsblödning, osteoporos, magsår, tarmsår, artrit -externt i sittbad mot hemorrojder, för gynekologiska problem av alla slag, som en lokal sköljning för leukorré, som förband mot gingivit, hudsår, brännskador; fet hud, eksem, rinnande ögon, frossa, frostskador</li>
+                <li>Det har en irrterande effekt på magslemhinnan, så drick dess te efter måltider</li>
+                <li>Desinfektionsmedel, sammandragande, lugnande, hemostatiska</li>
+                <li>Rekommenderas inte för njur- och leverpatienter</li>
+            </Article>
+            <Article title="Hagtorn (Crataegus)">
+                <li>Sänker blodtrycket ock kolesterolnivåerna, förebygger åderförkalkning</li>
+                <li>Det åldrande hjärtats elixir, ett naturligt läkemedel mot hjärtsvikt, arytmier, spasmer i arteriolerna, en utmärkt vasodilator</li>
+                <li>Har en lugnande effekt och därför används även för att behandla kronisk sömnlöshet, yrsel och ångerst, lindrar stress</li>
+                <li>Ackummuleras inte i kroppen, så överdosering kan inte inträffa, dess blommor, blad och frukter kan användas</li>
+                <li>Extremt bra hjärtstärkare och hjärtavslappnande, har god effekt på ett stressat, överbelastat, trött hjärta, håller hjärtmuskelceller och blodkärlsväggar flexibla, stimulerar blodtillförseln till hjärtmuskler</li>
+                <li>Vid akuta problem, drick 2-3 koppar te per dag, och i förebyggande syfte, drick 1 kopp te per vecka kontinuerligt och permanent</li>
+                <li>Det kan minska dosen av medicin, blomman är mer effektiv än frukten</li>
+            </Article>
+            <Article title="Havtorn (Hippophae rhamnoides)">
+                <li>Dess frukt skördas efter att den mognar, före frost</li>
+                <li>Rå innehåller A, B1, B2, C och andra vitaminer samt folsyra</li>
+                <li>Lämplig för vitamintillskott, förkylningsförebyggande, leversjukdomar</li>
+                <li>Dess bär och blad har medicinska egenskaper</li>
+                <li>Ökar effektiviteten av vår kropps eget försvar, dess antiinflammatoriska effekt hjälper till med sårläkning, läkning av hudsjukdomar, skyddar mot UV-strålning, är bra för torr sprucken hud, för allmän svaghet, och speciellt efter infektionssjukdomar och operationer</li>
+                <li>Bra vintermedicin, fördröjer åldrandet, ökar ämnesomsättningen, sänker blodsockernivån, förhindrar håravfall</li>
+                <li>Används utmärkt för kosmetiska ändamål</li>
+            </Article>
+            <Article title="Hjorttunga (Asplenium scolopendrium)">
+                <li>Dess blad har sammandragande, hemostatiska, koleretiska, vätskedrivande, svettdrivande, sårläkande effekt samt lossar avlagningar i luftvägarna</li>
+                <li>Används externt för att behandla brännskador och hemorrojder, som ansiktspackning och som hårbalsam</li>
+                <li>Används internt för diarré, lever- och gallbesvär</li>
+                <li>Används som en mjälttonic, nyttigt vid trängsel i gallblåsan, gallsten</li>
+            </Article>
+            <Article title="Hjärtstilla (Leonurus cardiaca)">
+                <li>Som ört, samlar vi dess blomskott när de blommar</li>
+                <li>Kramplösande, hjärtstärkande, lugnande medel, sömnmedel, antiinflammatoriskt, antibakteriellt, antiviralt, smärtstillande, antioxidant, bra mot depression, cancer, livmoderproblem, hjärnskador, leverproblem, prostatit, magkramper, epilepsi, högt blodtryck, klåda, muskelsvaghet, lungproblem</li>
+                <li>Har en mild vasodilaterande och glattmuskelavslappnande effekt</li>
+                <li>Stressavlastare, användbar för att behandla ångest, hjärtklappning, nervös irritabilitet och hjärtsvaghet</li>
+                <li>Blandat med citrongräs och vänderot, det kan användas för att göra ett effektivt lugnande te, och kan även användas för hypertyreos</li>
+                <li>-blandat med hallonblad är det ett rekommenderat te före och efter förlossningen eftersom det minskar blodförlusten</li>
+            </Article>
+            <Article title="Hästhov (Tussilago farfara)">
+                <li>Både dess blad och blommor används för medicin</li>
+                <li>Utmärkt ört för luftvägssjukdomar, renar effektivt lugnorna och de övre luftvägarna från sekret, har en hostdämpande och slemhinnelindrande effekt, kan även tas mot astma, bronkit, kikhosta och kronisk hosta</li>
+                <li>Antiinflammatorisk, värt att prova vid allergier</li>
+                <li>Användes förr för hud, muskeloskeletala systemet, influensa, förkylningar, feber, reumatism, gikt</li>
+                <li>Te: 1-2 teskedar torkade hästhovblad, låt stå i 15 minuter i kokt vatten</li>
+                <li>Rekommenderas i små mängder, undvik konsumtion under graviditet och amning</li>
+            </Article>
+            <Article title="Islandslav (Cetraria islandica)">
+                <li>Det var en del av islänningarnas dagliga kost, som sallad neutraliseras dess bittra smak i alkaliskt vatten innan tillagning, så de gjorde grönsakssoppa av den</li>
+                <li>Antioxidant, antimikrobiell, antiinflammatorisk, immunförsvarsstärkande, hjälper till att bekämpa förkylningar, kan lindra halsont, torrhosta och slemproduktion</li>
+                <li>Mycket rik på K, Ca, P, J och vitaminer, lugnande för irritterad luftvägs- och magslemhinna</li>
+                <li>Stimulerar funktionen av bukspottkörteln och det vegetativa nervsystemet samt produktionen av galla</li>
+            </Article>
+            <Article title="Isop (Hyssopus officinalis)">
+                <li>Hela växten används för medicinska ändamål</li>
+                <li>Dess te används för kroniska andningsproblem som heshet, hosta, astma, det främjar svettning och löser avlagringar, det är urindrivande</li>
+                <li>Desinfektionsmedel, hjälper ärrbildning för sår genom omslag eller bad</li>
+                <li>Det stimulerar aptiten och reglerar matsmältningen tack vare sina bittra ämnen</li>
+                <li>Används som en sköljmedel för att behandla tandkötts- och halsinflammation</li>
+                <li>Verkar blodtryckssänkande</li>
+                <li>Gurgla med teet om du har torrhosta</li>
+                <li>Som krydda till kakor, sallader och som smaksättning till keso</li>
+                <li>Vi dricker dess te mot mag- och tarmbesvär</li>
+            </Article>
+            <Article title="Johannesört (Hypericum perforatum)">
+                <li>De blommande skotten samlas in i juni-juli</li>
+                <li>Dess te används mot nervositet, depression och sömnstörningar, men också för att behandla hudinflammation och svårläkta sår</li>
+                <li>Har en gynsam effekt på människokroppen vid besvär som magsår, njur- och gallblåsproblem, och nervösa gastrointestinala besvär samt bra mot munskador</li>
+                <li>Dess olja används för att lindra reumatisk smärta, behandla vissa hudsjukdomar, furunkels och andra suppurationer, ytliga yttre blödningar, blåmärken, stukningar, ländryggen och gikt</li>
+                <li>Regelbunden konsumtion av dess te ökar gallproduktionen och reglerar blodcirkulationen</li>
+                <li>Vid depression märks dess effekt först efter 3-4 veckor</li>
+                <li>I salvaform, indikerad mot kramper och nervsmärtor</li>
+                <li>Om du krossar dess blomma kommer den att släpa ut en röd juice</li>
+            </Article>
+            <Article title="Järnört (Verbena officinalis)">
+                <li>Det blommande bladskottet används för medicinska ändamål</li>
+                <li>Innehåller koffeinsyraderivat, eterisk olja, iridoidglykosider, flavonoider</li>
+                <li>Menstruationsrubbningar, ingrediens i te blandningar som stimulerar mjölkutsöndringen, bra slemlösande medel, katarr i de övre luftvägarna, lever och gallblåsan, aptitstimulerande medel, immunförstärkare, sänker högt blodtryck, febernedsättande, antiinflammatorisk, allergistillande, lugnande medel, antibakteriell, smärtstillande, används för anemi, för vissa hudinfektioner, används vid huvudvärk</li>
+            </Article>
+            <Article title="Kalmus (Acorus calamus)">
+                <li>Roten används för medicin</li>
+                <li>God aptitstimulerande, stimulerar magsyraproduktionen, har en urinsyraavlägsnande effekt, renar tarmarna, lugnar nerverna, lindrar uppblåsthet, artrit, mild diarré, anemi, magsår, kväljningar, tarmhypotoni, lungcancer; mjälte, lever och bukspottkörtelstimulerande medel</li>
+                <li>Externt användbar för köldskador och dålig perifer blodtillförsel i armar och ben</li>
+                <li>Dess blad är doftande, dess grundstam har en bitter-kryddig smak</li>
+                <li>Den europeiska arten innehåller ett kemiskt ämne som kan vara cancerframkallande, denna finns inte i den amerikanska arten</li>
+                <li>Används för medicinska ändamål sedan urminnes tider, växer i svavelhaltiga träskmarker</li>
+            </Article>
+            <Article title="Kamomill (Matricaria recutita)">
+                <li>Blommorna plockas på torrt, soligt väder</li>
+                <li>Antiinflammatorisk, mild lugnande, smärtstillande, desinfektionsmedel, kapillärtonic, avsvällande, matsmältningsförbättrare, sårläkande, histaminhämmare</li>
+                <li>Lätt magsyrabildande, koleretisk, febernedsättande, bra för förkylningar</li>
+                <li>Invärtes kramplösande, lämlig för urinblåsinflammation, nefrit, gastrit, diarré, leversjukdomar, astma hos barn, vissa fall av allergier, enterokolit, tarmkolik hos spädbarn</li>
+                <li>Utvärtes i form av omslag, sköljning, gurgling, lavemang, i badvatten för brännskador, hemorrojder, vaginit, sår, akne, halsont, irriterad-, röd hud, tandböld, nagelbäddsinflammation, afte, inom gynekologi används det för att minska förlossningens varaktighet, för att lindra mensvärk, glänser hår och lugnar hårbotten, mot mjäll och för fet hårbotten</li>
+                <li>Regelbunden konsumtion lindrar magbesvär, illamående, kväljningar och symtom på tarminflammation</li>
+            </Article>
+            <Article title="Kransborre (Marrubium vulgare)">
+                <li>Under maj-juni samlar vi in de övre blomskotten på växten, dock inte de överblåsta blommorna, som används för sin helande effekt</li>
+                <li>Innehåller saponiner, flavonoider, tanniner, steroler</li>
+                <li>Känd för att vara ett utmärkt hostdämpande och slemlösande medel</li>
+                <li>Det har en gynsam effekt på bromkit, trakeit och astma, stimulerar matsmältningskörtlarnas funktion, används mot gallbesvär, är ett diuretikum, användbart mot förstoppning och mot tarmparasiter</li>
+                <li>Externt lämplig för purulenta eller svårläkta sår, antiinflammatorisk, aptit- och ämnesomsättningshöjare, har en lugnande effekt, extremt effektiv för att förebygga och behandla migrän och huvudvärk, kramplösande</li>
+            </Article>
+            <Article title="Kryddsalvia (Salvia officinalis)">
+                <li>Dess blad samlas in i juni-juli för medicinska ändamål</li>
+                <li>Innehåller många aktiva ämnen: eteriska oljor, tanniner, diterpener, flavonoider, tujon, kamfer, borneol, linalool, eukalyptol...</li>
+                <li>Används för en mängd olika åkommor, har antiinflammatoriska, bakteriedödande och svettreglerande effekter, och används att gurgla med vid gingivit, hosta och inflammation i mun- och svalgslemhinnan, desinfektionsmedel</li>
+                <li>Det användes en gång för konservering, men idag används det som ett diuretikum, för sårbehandling, ormbett, inälvsmask, enterit, epilepsi, bröskorgstbesvär, stimulerar menstruation, vid sömnlöshet, ögonsjukdomar och halsont; dess olja har en minnesförbättrande, genskyddande effekt och beter sig på samma sätt som östrogen; uppblåsthet, rekommenderas för matsmältningsbesvär, hemostatisk, tonic, hjärnvård, astma, förkylning, diarré, blodsockersänkande</li>
+                <li>Bladsaften används för att behandla insektsbett och mindre svullnader, i badet mot hemorrojder och som en god krydda i köket, måttlig konsumption rekommenderas pga. tujoninnehållet</li>
+            </Article>
+            <Article title="Kungsmynta (Origanum Vulgare)">
+                <li>Vi skördar den övre delen av växtens ovanjordiska blomskott</li>
+                <li>Innehåller eteriska oljor, tanniner, flavonoider</li>
+                <li>Utmärkt aptitstimulerande, hostdämpande, nervstillande, antiinflammatorisk, bakteriedödande, har god effekt på uppblåsthet, besvärlig matsmältning, karminativ, koleretisk, kramplösande, mot mun- och svalginflammation, stimulerar hypofysens funktion som reglerar könshormonerna</li>
+                <li>Anses vara naturens antibiotika</li>
+                <li>För vissa kvinnliga könssjukdomar kan te-gräs rester användas som grötomslag tillsammans med vaginallavemang, dessutom är det mycket användbart i badvatten</li>
+            </Article>
+            <Article title="Kustdaggkåpa (Alchemilla xanthochlora)">
+                <li>Det blommande skottet används för medicinska ändamål</li>
+                <li>Känd som ett livmoderstimulerande medel, under graviditeten och före förlossningen kan vi dricka dess te</li>
+                <li>För menstruationsbesvär, för mag- och tarminflammation</li>
+                <li>Ett bra naturläkemedel med hemostatiska, antiinflammatoriska och sammandragande effekter, har liknande egenskaper som lomme</li>
+                <li>Användbar även i badvatten</li>
+            </Article>
+            <Article title="Kvanne (Angelica archangelica)">
+                <li>Blad, frukt och rötter kan användas för medicinska ändamål</li>
+                <li>Aptitstimulerande, matsmältningsstimulerande och kramplösande, välkänd karminativ, magtonik</li>
+                <li>Används för gallsten, dess te har en blodrenande effect, är urindrivande och minskar hosta</li>
+                <li>Bad och kräm har en gynsam effect på reumatiska besvär</li>
+                <li>Långvarig användning kan orsaka ljuskänslighet</li>
+            </Article>
+            <Article title="Kvickrot (Elymus repens)">
+                <li>Dess rhizomer kan användas råa eller i form av te</li>
+                <li>Innehåller slem, vitaminer och eteriska oljor</li>
+                <li>Febernedsättande, diuretikum, blodtryckssänkande, antiinflammatorisk, används för cystit, gikt, hosta och trakeit</li>
+                <li>Externt användbar för bildandet av bindvävsfiber på huden, speciellt för behandling av aknebenägen hud</li>
+                <li>Kvickrot innehåller mycket fiber, protein, B-vitaminer och är en källa till Fe, Ca, Mg, Zn och andra viktiga spårämnen</li>
+                <li>Används för att behandla nervositet, sömnlöshet, hjälper matsmältningen, sänker kolesterolnivån</li>
+            </Article>
+            <Article title="Lavendel (Lavandula)">
+                <li>Dess blommor plockas vid blomning</li>
+                <li>Insektsmedel (mot mal, bladlöss)</li>
+                <li>Dess te är ett nervstillande medel, används för att behandla nervbaserde mag- och tarmsjukdomar, sömnstörningar, känt som huvudvärkstillande, kramplösande,desinfektionsmedel och bra mot insektsbett</li>
+                <li>Utmärkt för behandling av reumatiska smärtor och neuralgi i form av bad</li>
+                <li>Hudvårdsprodukter som innehåller lavandelolja kan säkert användas på spädbarn</li>
+                <li>Dess olja har en sårläkande effekt, minskar bildandet av ärr och är effektiv mot svampinfektioner</li>
+                <li>Lindrar sjukdomar i de övre luftvägarna, astma, allergisk nästäppa, rinit, influensa, halsont; att andas in den eteriska oljan eller späda den med andra oljor och massera bröstet med är lämpligt för förkylning</li>
+                <li>Hjälper till med återhämtning efter förlossningen, stoppar håravfall, förbättrar minnet, lindrar symtom på sjösjuka, kan motverka illamående, lugnar värmevallningar vid menopaus</li>
+                <li>Lugnar spädbarn när de gnuggas på magen vid kramp (1 droppe lavandelolja/20 ml mandelolja)</li>
+            </Article>
+            <Article title="Lin (Linum usitatissimum)">
+                <li>Innehåller slem, fet olja, protein, cyanogen glykosidblandning, rik på Omega3-fettsyror, vitamin B6, E, K</li>
+                <li>Omega 3 fettsyror stödjer hjärnans och nervsystemets funktion, minskar risken för hjärt-kärlsjukdomar</li>
+                <li>Den starka antioxidanteffekten minskar risken för bröst- och prostatacancer, minskar antalet fria radikaler</li>
+                <li>Det används för att reglera matsmältningen i fall av tarmslapphet, mag- och tarmsjukdomar och förstoppning, sänker kolesterolnivåerna och förbättrar blodsockernivåerna</li>
+                <li>De mineraler den innehåller: Mg, Mn, P bidrar till att bibehålla friska ben och tänder</li>
+                <li>Förhindrar åderförkalkning, används som en varm kompress för att behandla bölder och furunkels</li>
+                <li>Tyger av linne har naturliga antibakteriella egenskaper som förhindrar till exempel tillväxten av Escherichia coli och Staphilococcus aureus</li>
+                <li>Viktigt: lämna inte malda/hackade frön i ett varmt, luftigt, soligt rum eftersom Omega3 lätt härsknar, även inom 30 minuter</li>
+            </Article>
+            <Article title="Lind (Tilia)">
+                <li>Blommorna plockas innan fullblomning med dess högblad vid soligt väder under juni månad</li>
+                <li>Har antibakteriella effekter, därför är den utmärkt mot förkylning och hosta, även mot feber</li>
+                <li>Lindrar bronkit symptom, har en slemlösande effekt, är en bra behandling mot inflammation och infektion, sänker blodtrycket och är bra mot migrän</li>
+                <li>Dess te är ett effektivt svättdrivande vid förkylningar, har en bra nervtonic och lugnande effekt, därför är det en utmärkt kvällsdrink</li>
+                <li>Behagligt när blandas i badvatten</li>
+                <li>Drick dess te efter måltider för dess kramplösande effekt, förbättrar matsmältningen</li>
+                <li>Kombinerat med svarta fläderblommor i lika stora proportioner förbättrar immunförsvaret</li>
+                <li>Lindhonung har den starkaste antiinflammatoriska effekten</li>
+                <li>En typ av medicinskt kol är gjort av lindträ, vilket är en användbar behandlingsmedel för inflammation i de nedre extremiteterna</li>
+            </Article>
+            <Article title="Lingon (Vaccinium vitis-idaea)">
+                <li>Rik på vitaminer, antioxidanter och spårämnen</li>
+                <li>Innehåller mineraler: Ca, Mg, K, Na, Fe, Zn, Mn, P och vitaminerna A, B, C, E</li>
+                <li>Har en kärlskyddande effekt på grund av dess flavonoidhalt</li>
+                <li>Tack vare den bakteriedödande effekten av proantocyanidin kan det framgångsrikt användas mot vissa bakterier i munhålan och urinvägarna</li>
+                <li>Den stora mängden fenol den innehåller har en antioxidant effekt, stärker immunförsvaret, skyddar blodkärl, avgiftar, förhindrar stenbildning och utveckling av inflammatoriska och tumörsjukdomar</li>
+                <li>Bäst att ätas rå</li>
+                <li>Konsumera vid prostataproblem, njursjukdom, diabetes, åderförkalkning, högt blodtryck</li>
+            </Article>
+            <Article title="Lomme (Capsella bursa-pastoris)">
+                <li>Hemostatisk, reglerar menstruationscykeln, minskar menstruationssmärta genom att stimulera livmodermusklerna, lindrar näsblod, mag- och tarmblödningar, hematuri och hemoptys</li>
+                <li>Blandat med hagtorn i förhållandet 4 hagtorn/1 lomme, det sänker blodtrycket och renar blodkärlen, bra för hjärtfunktionen</li>
+                <li>Förbättrar blocirkulationen i de nedre lemmarna</li>
+                <li>{`Tinkturextrakt (från hela växten) är användbart externt för muskelvärk; placera det skållade gräset över natten där spasmen uppstår och låt ångbandaget sitta på till morgonen`}</li>
+                <li>Vid kraftiga mensblödningar, skålla en rågad matsked teört med en kvarts liter varmt vatten, låt den vila i 15 minuter, drick den ljummen 1-3 koppar om dagen, externt lugnar det blödningen</li>
+                <li>Blodtrycksregulator, hjärttonic, kan lindra ledvärk</li>
+                <li>Bladen kan ätas färska eller torkade</li>
+            </Article>
         </div>
     )
 };
