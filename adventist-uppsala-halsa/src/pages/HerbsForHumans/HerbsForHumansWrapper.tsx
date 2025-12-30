@@ -4,6 +4,7 @@ import RecipeContent from "../../content/abuse/RecipeContent";
 import RecipeCard from "../../components/RecipeCard/RecipeCard";
 import Masonry from "react-masonry-css";
 import MasonryStyles from "./Masonry.module.css";
+import FloraContent from "./components/FloraContent/FloraContent";
 
 const HerbsForHumansWrapper = () => {
     const Paragraph1 = () => {
@@ -49,7 +50,7 @@ const HerbsForHumansWrapper = () => {
             <div className={Styles.HerbInfoView}>
                 <p className={Styles.Paragraph}>I tusentals år har örter använts för hälsa och läkedom.</p>
                 <p className={Styles.Paragraph}>Örter kan användas på många olika sätt:</p>
-                <div>
+                <ul>
                     <li className={Styles.Paragraph}>Färskt eller tillagad i mat</li>
                     <li className={Styles.Paragraph}>Örtte</li>
                     <li className={Styles.Paragraph}>Dekokt</li>
@@ -61,7 +62,7 @@ const HerbsForHumansWrapper = () => {
                     <li className={Styles.Paragraph}>Fotbad</li>
                     <li className={Styles.Paragraph}>Bastubad</li>
                     <li className={Styles.Paragraph}>Övriga behandlingar med vattenånga</li>
-                </div>
+                </ul>
                 <p className={Styles.Paragraph}>Skörda örterna under soliga dagar för bästa effekt. Ta också vara på ”ogräset” i din trädgård, mycket av det är både nyttigt och gott. </p>
             </div>
             
@@ -101,6 +102,9 @@ const HerbsForHumansWrapper = () => {
                 />
 
             </Masonry>
+
+            <FloraContent/>
+
         </div>
     )
 };

@@ -126,6 +126,7 @@
     }
     .LinksView:hover {
         width: 400px;
+        background-color: var(--color-dark);
     }
     .LinksView:hover p {
         opacity: 1;

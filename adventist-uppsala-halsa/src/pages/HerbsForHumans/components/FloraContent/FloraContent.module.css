@@ -1,0 +1,11 @@
+.FloraContentView {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+h2,
+li {
+    font-family: var(--font-theme-secondary), sans-serif;
+    color: var(--color-text-paragraph);
+}
