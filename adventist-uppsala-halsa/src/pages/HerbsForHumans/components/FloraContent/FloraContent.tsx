@@ -375,6 +375,135 @@ const FloraContent = () => {
                 <li>Blodtrycksregulator, hjärttonic, kan lindra ledvärk</li>
                 <li>Bladen kan ätas färska eller torkade</li>
             </Article>
+            <Article title="Luddunört (Epilobium parviflorum)">
+                <li>Ört för prostatakörteln</li>
+                <li>Vi samlar den ovanjordiska delen av örten när de första blommorna dyker upp, skär upp örten färsk och använd</li>
+                <li>Innehåller antioxidanter och antiinflammatoriska medel, rik på flavonoider, tanniner, gallotanniner och flera essentiella syror</li>
+                <li>I form av te och extrakt är det känt för sina gynnsamma effekter på njurar, urinblåsa och speciellt prostatakörteln tack vare sin eikosapentaensyra</li>
+                <li>Rekommenderas vid benign prostatahyperplasi, minskar frekvent urinering genom att stärka urinretention</li>
+                <li>Har inga biverkningar, fyra veckors kur rekommenderas vilket räcker för återhämtning</li>
+                <li>Te: tillsätt en tesked torkad ört i en kopp varmt vatten, sila efter femton minuter, drick en på fastande mage på morgonen och den andra en timme före sänggåendet</li>
+            </Article>
+            <Article title="Läkemalva (Althaea officinalis)">
+                <li>Örtens unga blad, blommor och rötter används för medicinska ändamål. Roten har få aktiva ämnen på sommaren, därför bör den samlas från september till april, roten möglar lätt</li>
+                <li>Rekommenderas för behandling av ont i halsen, inflammatoriska sjukdomar i mun och svalg, hosta, mild inflammation i mag- tarmslemhinnan, immunförsvar förstärkare, bra för hudinflammation, furunkelbehandling med mosad läkemalva i form av en kompress</li>
+                <li>Vi gör kallt te från roten genom att blötlägga det i 30 minuter och använder det att gurgla med vid förkylning, heshet, torrhosta och tonsilit</li>
+                <li>Antiinflammatorisk för luftvägar, njurar och matsmältningssystem, mjukgörande och slemlösande, urindrivande, mukolytiskt och sårläkande</li>
+            </Article>
+            <Article title="Malört (Artemisia absinthium)">
+                <li>I full blom, samla max 50 cm av det lövblommande skottet annars blir aromen för bitter och stark</li>
+                <li>Förbättrar matsmältningen, aptitstimulerande, minskar uppblåsthet kramplösande, används vid lever-, mag-, tarm- och gallgångsjukdomar, mot diarré, har en avslappnande effekt</li>
+                <li>Dess te minskar illamående och feber, stimulerar menstruationen och är ett effektivt anthelmintikum</li>
+                <li>Används för anemi och återhämtning efter sjukdom</li>
+                <li>Desinfektionsmedel, urindrivande, rengörande, bitter tonic, antiinflammatorisk, sammandragande utvärtes och invärtes</li>
+                <li>Svampdödande, neuroprotektiva, bakteriedödande, insekticid, parasiticid, anti-kolera och anti-malaria, antidepressivt, antiepileptiskt och leverskyddande</li>
+            </Article>
+            <Article title="Mariatistel (Silybum marianum)">
+                <li>Känt för att ha en hepatoskyddande effekt, som hjälper till att behandla kroniska leversjukdomar och giftiga leverskador, matsmältningsrubbningar, gallsten och gulsot</li>
+                <li>En av dess aktiva ingredienser är silymarin, som är antiinflammatoriskt och blockerar effekterna av leverskadande gifter, droger och giftiga svampar</li>
+                <li>Silybin har en stark antioxidanteffekt, vilket minskar oxidativ leverskada orsakad av toxiner, minskar LDL-kolesterol och triglyceridnivån, ökar HDL-kolesterolnivån</li>
+                <li>De aktiva ingredienserna finns i frukten, de är inte lösliga i vatten, så teet är inte särskilt effektivt</li>
+            </Article>
+            <Article title="Maskros (Taraxacum officinale)">
+                <li>Hela växten är bra medicin, unga blad kan ätas som sallad</li>
+                <li>Innehåller flavonoider, tanniner, inulin, steroler, kaliumsalter, karotenoider, bitterämnen</li>
+                <li>Det har ett utmärkt aptitstimulerande effekt, förbättrar matsmältningen, har antiinflammatoriska effekter, är lämpligt för att behandla gall- ochnleversjukdomar, dess te är urindrivande och blod renare, används som omslag på reumatiska besvär och ömma leder</li>
+                <li>Reglerar njurfunktionen, ökar gallproduktionen, ökar saliv- och magsyrproduktionen, är även bra mot tonsillit, avgiftar levern</li>
+                <li>Bra mot anemi, åderbråck, celluliter, hemorrojder, tarmfermentering, eksem, lymfadenit, gikt, gallsten och njursten, övervikt, diabetes, te gjort av dess rot har anticancer effekt</li>
+                <li>Drick 2-3 koppar te för bättre effekt</li>
+            </Article>
+            <Article title="Mejram (Majorana hortensis)">
+                <li>Vi skördar de lummiga blommande stjälkarna under juli-augusti</li>
+                <li>Utmärkt för mag-, tarm- och gallbesvär</li>
+                <li>Den eteriska oljan har kramplösande, karminerande, aptitstimulerande, hostdämpande, nervlugnande och slemlösande effekter</li>
+                <li>Lindrar nästäppa vid förkylning om man applicerar mejramsalva i näshålan och omgivningen, salvan är lämplig för att lindra reumatisk smärta</li>
+                <li>Vid uppblåsthet, gnuggas området ovanför naveln med mejramolja och den försvinner inom 15-20 minuter</li>
+                <li>Lindrar smärta i samband med menstruationsblödning, migrän, muskelsmärta, nervösa spänningar, köldskador, blåmärken, förbättrar sömnen och reglerar blodtrycket</li>
+                <li>Den har antibakteriella och antivirala effekter, dess te kan konsumeras vid misstanke om matförgiftning eller viral gastrit, och när diarré uppstår; även känd som en krydda</li>
+                <li>Överdriven konsumtion rekommenderas ej, kan minska sexlusten</li>
+            </Article>
+            <Article title="Mistel (Viscum album)">
+                <li>Dess blad och grenspetsar används</li>
+                <li>Kramplösande, bra mot inre blödningar, stärker hjärtat, sänker pulsen, har god effekt på blodtrycket, har en cancerläkande effekt, är även effektiv åderförkalkning och hormonproblem, är bra för att reglera hjärtrytmen, förbättrar blodkärlens permeabilitet, bra mot yrsel och tinnitus, åderbrock, förbättrar koncentrationsförmågan</li>
+                <li>Diuretikum, lugnar sår-, livmoder-, lung-och näsblödningar, kan också användas vid hosta, kikhosta och asmatiska spasmer</li>
+                <li>Dess lugnande effekt hjälper till att förebygga epileptiska anfall, den används mot huvudvärk, stärker immunförsvaret och livmoderns muskler, ökar chansen för befruktning, sänker blodsockernivåerna något</li>
+                <li>Vi gör alltid te genom att blötlägga det i kallt vatten över natten</li>
+                <li>Inte att förväxla med gul mistel</li>
+                <li>Kan samlas in från november till februari och dess aktiva ingredienser beror i viss del på värdträdet</li>
+            </Article>
+            <Article title="Munkpeppar (Vitex agnus-castus)">
+                <li>Dess frukt verkar på det vegetativa nervsystemet, lindrar symtom på högt blodtryck och hjärtklappning, har en lugnande effekt och är även lämplig för att lindra premenstruella symtom, reglerar menstruationscykeln</li>
+                <li>Det förbättrar corpus luteum störningar, kan konsumeras under hela cykeln och minskar också effektivt obehagliga kramper i nedre delen av magen</li>
+            </Article>
+            <Article title="Nicktistel (Carduus nutans)">
+                <li>Plockas den ovanjordiska delen under blomningen dess te användes för behandling av prostatabesvär</li>
+                <li>Användbar vid behandling av leversjukdomar, malaria, njursten och förstoppning</li>
+            </Article>
+            <Article title="Nypon (Rosa canina)">
+                <li>Värdefull för sin vitamin A, B1, B2, C, K, P, E innehåll</li>
+                <li>Dess te är användbart vid behandling av förgiftning, matsmältningsbesvär, leversjukdomar, feber, tarmparasiter och hjärtklappning</li>
+                <li>Te gjort på nyponfrön är användbart vid problem med njurar och urinblåsa</li>
+                <li>Mot kronisk bronkit och hosta i hög ålder</li>
+                <li>C vitamin ökar kroppens motståndskraft, flavonoider har en antiinflammatorisk och antibiotisk immunförsvarsstärkande effekt och pektiner hjälper matsmältningen</li>
+                <li>Har mångsidiga användningsområden: te, soppa, sylt, alkoholhaltiga drycker</li>
+                <li>Teet ska göras på högst 40 grader C, annars går det mesta av C-vitaminet förlorat</li>
+                <li>Den innehåller mest C-vitamin av alla vilda växter, tio gånger mer än citroner</li>
+            </Article>
+            <Article title="Persilja (Petroselinum crispum)">
+                <li>K vitaminhalten bidrar till benhälsan, C vitaminhalten stärker immunförsvaret, betakarotenantioxidanten skyddar mot fria radikaler</li>
+                <li>Vid daglig konsumption stöder den njurfunktionen, bryter ner njursten, minskar ledvärk tack vare sin antiinflammatoriska effekt och förbättrar anemi tack vare sitt höga järninnehåll</li>
+                <li>Dess antioxidanter förstör cancerceller och minskar risken för typ 2-diabetes</li>
+                <li>Har en muskelavslappnande effekt och stödjer även matsmältningen</li>
+                <li>Att gnugga ett getingstick med ett färskt persiljablad kommer att lindra smärtan</li>
+                <li>Används ofta som krydda i köket</li>
+            </Article>
+            <Article title="Ringblomma (Calendula officinalis)">
+                <li>Blommorna plockas på soliga dagar i början av blomningen</li>
+                <li>För gallblåsinflammation, gallsten, hepatit, blodrenare, febernedsättande, förbättrar synen genom att rengöra blodkärlen i bakre delen av ögat, stimulerar produktionen av östrogenhormonet, används internt vid behandling av cystit och gastrit-externt mot åderbråck, bensår, liggsår, svårläkta sår, köldskador, hudförändringar, bistick, klåda, slemhinneinflammationer, eksem, sår, som munvatten för tandköttsvård, blåmärken, hudsprickor, hudregenerator</li>
+                <li>Kosmetisk ingrediens, rekommenderas även för att lindra smärta orsakad av hudutslag och solbränna, mot rynkor</li>
+                <li>Salvan lindrar även bröstvårtans inflammation under amning</li>
+                <li>Desinfektionsmedel, har sårläkande, bra kramplösande, stimulerande, antiinflammatorisk, antibakteriell, antiviral, och anti ärrbildande effekt, används för att behandla astma, hosta, sömnlöshet, ångest och hjärtklappning</li>
+                <li>Används som te, i salvor, kompresser, i badvatten för 15 minuters bad</li>
+                <li>Starkt avkok kan användas för att behandla nagelsvamp</li>
+                <li>Kan ätas rå i sallader och som krydda</li>
+            </Article>
+            <Article title="Rysk martorn (Erymgium planum)">
+                <li>Slemlösande medel, luftvägsdesinfektionsmedel, hosta, bronkit, diuretikum, gikt, hårbotteninflammation hos barn, aptitstimulerande medel</li>
+                <li>Innehåller flavoner, saponiner, fenolsyra och eteriska oljor</li>
+                <li>Vi samlar den ovanjordiska delen av örten under blomningen</li>
+            </Article>
+            <Article title="Rödplister (Laminum purpureum)">
+                <li>Den ovanjordiska delen av den unga plantan skördas</li>
+                <li>Innehåller många mineraler, betakaroten och C-vitamin</li>
+                <li>Kan ätas rå i sallader, smoothies, pesto, och kokt i rätter, i form av te eller extrakt</li>
+                <li>Diuretikum, bra mot urinvägsinfektioner, sammandragande, bakteriedödande, svampdödande, antiinflammatorisk, hemostatisk, mot irriterande hosta, matsmältningsregulator, avgiftande, milt laxermedel</li>
+                <li>Allergiska besvär, ont i halsen, effektiv för kraftiga menstruationsblödningar, för mindre skador, insektsbett, vid skrubbsår är örtoljan eller salva bra, påskyndar läkningen av hemorrojder</li>
+            </Article>
+            <Article title="Röllika (Achillea millefolium)">
+                <li>Röllika te anses vara en kvinnas läkare, och dess kramplösande egenskaper kan användas för att behandla smärtsamma menstruationer</li>
+                <li>Utmärkt antiinflammatorisk för slämhinnor: vaginal och livmoderinflammation, gingivit...</li>
+                <li>Sammandragande, sårläkande effekt, minskar menstruationsblödningar och kramper</li>
+                <li>Buksmärtor, uppblåshet, förbättrar matsmältningen effectiv mot migränhuvudverk</li>
+                <li>Stimulerar produktionen av gallsekretion</li>
+                <li>Oumbärlig för urinvägssjukdomar och andningsproblem</li>
+                <li>De aktiva ingredienserna i dess blommor botar även eksem och hösnuva och verkar på benmärgen och ökar blodbildningen</li>
+            </Article>
+            <Article title="Skelört (Chelidonium majus)">
+                <li>Om du applicerar växtsaften på vårtor eller eksem kommer det att förstöra virusen som orsakar dem, antiviralt och antibakteriellt</li>
+                <li>Används för mag- och tarmspasmer och inflammationer, lever- och gallblåsa besvär, för gallsten, gulsot, kärl- och hjärtsjukdomar, gråstarr, trötta ögon, fläckig hornhinna, pankreatit, håravfall, candida trichoronas, herpes, högt blodtryck, migrän...</li>
+                <li>Innehåller cirka 30 alkaloider, flavonoider och proteolytiska enzymer, men den torkade växten är bara effektiv i 6 månader</li>
+                <li>Kramplösande, smärtstillande, antiinflammatorisk, avgiftande, urindrivande, hämmar celldelning, har anticancereffekter</li>
+                <li>När du gör te, tillsätt en halv tesked torkad ört till 1 liter vatten, även lämplig för kompresser på sår men inte på öppna sår</li>
+                <li>Plocka den en solig, regnfri dag, annars blir den brun</li>
+            </Article>
+            <Article title="Slåttergubbe (Arnica montana)">
+                <li>Man kan göra örtte av dess blommor samt rötterna är också användbara</li>
+                <li>Har en desinficerande effekt, stärker magen, hjälper ämnesomsättningen</li>
+                <li>Dess extrakt appliceras på purulenta inflammatoriska sår</li>
+                <li>Har god effekt mot reumatism, rekommenderas för behandling av stukningar och blåmärken, lindrar klåda orsakad av insektbett</li>
+                <li>Används för att behandla muskelsmärta</li>
+                <li>Slottergubben hjälper till i läkningsprocessen av ytliga åderbråck</li>
+            </Article>
         </div>
     )
 };
