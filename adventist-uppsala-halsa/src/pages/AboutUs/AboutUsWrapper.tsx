@@ -1,5 +1,5 @@
 import Styles from "./AboutUsWrapper.module.css";
-import { ReactNode } from "react";
+import { ReactNode, useEffect } from "react";
 import { ReactComponent as GenericStar } from "../../assets/vector-icons/generic-star-icon.svg";
 import { Paragraph1 } from "../../content/aboutUs/Paragraph1";
 import { Paragraph2 } from "../../content/aboutUs/Paragraph2";
@@ -12,6 +12,7 @@ import { Paragraph8 } from "../../content/aboutUs/Paragraph8";
 import { Paragraph9 } from "../../content/aboutUs/Paragraph9";
 import { Paragraph10 } from "../../content/aboutUs/Paragraph10";
 import { Paragraph11 } from "../../content/aboutUs/Paragraph11";
+import { Route, Routes } from "react-router-dom";
 
 const paragraphs = [
   Paragraph1,
@@ -64,14 +65,26 @@ const AboutUsWrapper = () => {
         )
     };
 
+    function DisplayAboutUsPage() {
+        useEffect(() => {
+            document.title = "UA Hälsa | Vilka är vi?";
+        }, []);
+
+        return(
+            <div className={Styles.AboutUsWrapperView}>
+                <h1 className={Styles.Title}>{"Vilka är vi?"}</h1>
+                <ZigZag> {renderParagraphs(FIRST_PARAGRAPH, BREAK_PARAGRAPH)} </ZigZag>
+                <hr className={Styles.LineBreak}/>
+                <h1 className={Styles.Title}>{"BATTLE CREEK SANITARIUM"}</h1>
+                <ZigZag> {renderParagraphs(BREAK_PARAGRAPH, LAST_PARAGRAPH)} </ZigZag>
+            </div>
+        );
+    };
+
     return(
-        <div className={Styles.AboutUsWrapperView}>
-            <h1 className={Styles.Title}>{"Vilka är vi?"}</h1>
-            <ZigZag> {renderParagraphs(FIRST_PARAGRAPH, BREAK_PARAGRAPH)} </ZigZag>
-            <hr className={Styles.LineBreak}/>
-            <h1 className={Styles.Title}>{"BATTLE CREEK SANITARIUM"}</h1>
-            <ZigZag> {renderParagraphs(BREAK_PARAGRAPH, LAST_PARAGRAPH)} </ZigZag>
-        </div>
+        <Routes>
+            <Route index element={<DisplayAboutUsPage/>}/>
+        </Routes>
     )
 };
 

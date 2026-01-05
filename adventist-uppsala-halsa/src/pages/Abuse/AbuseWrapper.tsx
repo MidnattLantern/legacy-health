@@ -5,13 +5,14 @@ import PhoneViewAddictionCard from "./components/AddictionCard/PhoneViewAddictio
 import LargeViewAddictionCard from "./components/AddictionCard/LargeViewAddictionCard";
 import Introduction from "./components/Introduction/Introduction";
 import ContentData from "../../content/abuse/abuse-data.json"
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import AbuseContent from "../../content/abuse/AbuseContent";
 import { useViewPortContext } from "../../contexts/useViewportContext";
 import RecipeCard from "./components/RecipeCard/RecipeCard";
 import RecipeContent from "../../content/abuse/RecipeContent";
 import ReplacementCard from "./components/ReplacementCard/ReplacementCard";
 import ReplacementContent from "../../content/abuse/ReplacementContent";
+import { Route, Routes } from "react-router-dom";
 
 const AbuseWrapper = () => {
     const { viewportWidth } = useViewPortContext();
@@ -23,7 +24,12 @@ const AbuseWrapper = () => {
     const [phoneAddictionExpanded, setPhoneAddictionExpanded] = useState<boolean>(false); // "Mobilberoende"
     const [foodExpanded, setFoodExpanded] = useState<boolean>(false); // "Food"
 
-    return(
+    function DisplayAbusePage() {
+        useEffect(() => {
+            document.title = "UA Hälsa | Missbruk";
+        }, []);
+
+        return (
         <div className={Styles.AbuseWrapperView}>
             <Introduction/>
             <h1 className={Styles.Title}>{"VANLIGA BEROENDEN"}</h1>
@@ -83,9 +89,7 @@ const AbuseWrapper = () => {
                 </LargeViewAddictionCard>
                 }
             </div>
-
             <h1 className={Styles.Title}>{"ERSÄTTNING"}</h1>
-
             <Masonry
             breakpointCols={{
                 default: 2,
@@ -110,7 +114,6 @@ const AbuseWrapper = () => {
                     content={<ReplacementContent.CarobContent/>}
                 />
             </Masonry>
-
             <h1 className={Styles.Title}>{"HÄLSOSAMMA RECEPT"}</h1>
             <Masonry
             breakpointCols={{
@@ -130,7 +133,6 @@ const AbuseWrapper = () => {
                     <RecipeContent.CoconutCookiesInstructions/>
                 </>}
                 />
-
                 <RecipeCard
                 idName="date-balls"
                 title="Dadelboller"
@@ -141,10 +143,15 @@ const AbuseWrapper = () => {
                     <RecipeContent.DateBallsInstructions/>
                 </>}
                 />
-
             </Masonry>
-
         </div>
+        );
+    };
+
+    return(
+        <Routes>
+            <Route index element={<DisplayAbusePage/>}/>
+        </Routes>
     )
 };
 

@@ -18,7 +18,7 @@ const NavigationBar = () => {
         if (viewportWidth > BREAKPOINT_WIDTH) {
             setIsExpanded(false);
         }
-    }, [viewportWidth])
+    }, [viewportWidth]);
 
     const BurgerExpand = () => {
         return (

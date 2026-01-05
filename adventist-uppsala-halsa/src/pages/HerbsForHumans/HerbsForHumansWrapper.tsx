@@ -5,6 +5,8 @@ import RecipeCard from "../../components/RecipeCard/RecipeCard";
 import Masonry from "react-masonry-css";
 import MasonryStyles from "./Masonry.module.css";
 import FloraContent from "./components/FloraContent/FloraContent";
+import { Route, Routes } from "react-router-dom";
+import { useEffect } from "react";
 
 const HerbsForHumansWrapper = () => {
     const Paragraph1 = () => {
@@ -44,68 +46,73 @@ const HerbsForHumansWrapper = () => {
         return <p className={Styles.Paragraph}><strong>Cancer:</strong> gullris; blåbär; gråbo; maskros; styvmorsviol; kalmus; tiggarnöt; lin; gåsört; persilja; tistelgullfrö; sprängticka; sidenticka</p>
     };
 
-    return(
-        <div className={Styles.HerbsForHumansWrapperView}>
-            <h1 className={Styles.Title}>ÖRTER TILL MÄNNISKANS TJÄNST</h1>
-            <div className={Styles.HerbInfoView}>
-                <p className={Styles.Paragraph}>I tusentals år har örter använts för hälsa och läkedom.</p>
-                <p className={Styles.Paragraph}>Örter kan användas på många olika sätt:</p>
-                <ul>
-                    <li className={Styles.Paragraph}>Färskt eller tillagad i mat</li>
-                    <li className={Styles.Paragraph}>Örtte</li>
-                    <li className={Styles.Paragraph}>Dekokt</li>
-                    <li className={Styles.Paragraph}>Örtextrakt</li>
-                    <li className={Styles.Paragraph}>Örtomslag</li>
-                    <li className={Styles.Paragraph}>Eterisk olja</li>
-                    <li className={Styles.Paragraph}>Salva</li>
-                    <li className={Styles.Paragraph}>Inhalation</li>
-                    <li className={Styles.Paragraph}>Fotbad</li>
-                    <li className={Styles.Paragraph}>Bastubad</li>
-                    <li className={Styles.Paragraph}>Övriga behandlingar med vattenånga</li>
-                </ul>
-                <p className={Styles.Paragraph}>Skörda örterna under soliga dagar för bästa effekt. Ta också vara på ”ogräset” i din trädgård, mycket av det är både nyttigt och gott. </p>
+    function DisplayHerbsForHumansPage() {
+        useEffect(() => {
+            document.title = "UA Hälsa | Örter";
+        }, []);
+
+        return(
+            <div className={Styles.HerbsForHumansWrapperView}>
+                <h1 className={Styles.Title}>ÖRTER TILL MÄNNISKANS TJÄNST</h1>
+                <div className={Styles.HerbInfoView}>
+                    <p className={Styles.Paragraph}>I tusentals år har örter använts för hälsa och läkedom.</p>
+                    <p className={Styles.Paragraph}>Örter kan användas på många olika sätt:</p>
+                    <ul>
+                        <li className={Styles.Paragraph}>Färskt eller tillagad i mat</li>
+                        <li className={Styles.Paragraph}>Örtte</li>
+                        <li className={Styles.Paragraph}>Dekokt</li>
+                        <li className={Styles.Paragraph}>Örtextrakt</li>
+                        <li className={Styles.Paragraph}>Örtomslag</li>
+                        <li className={Styles.Paragraph}>Eterisk olja</li>
+                        <li className={Styles.Paragraph}>Salva</li>
+                        <li className={Styles.Paragraph}>Inhalation</li>
+                        <li className={Styles.Paragraph}>Fotbad</li>
+                        <li className={Styles.Paragraph}>Bastubad</li>
+                        <li className={Styles.Paragraph}>Övriga behandlingar med vattenånga</li>
+                    </ul>
+                    <p className={Styles.Paragraph}>Skörda örterna under soliga dagar för bästa effekt. Ta också vara på ”ogräset” i din trädgård, mycket av det är både nyttigt och gott. </p>
+                </div>
+                <hr className={Styles.LineBreak}/>
+                <h1 className={Styles.Title}>KLASSIFICERING AV ÖRTER EFTER ANVÄNDNINGSOMRÅDE</h1>
+                <ZigZag contentData={[ Paragraph1, Paragraph2, Paragraph3, Paragraph4, Paragraph5, Paragraph6, Paragraph7, Paragraph8, Paragraph9, Paragraph10, Paragraph11, Paragraph12 ]}/>
+                <Masonry
+                breakpointCols={{
+                    default: 2,
+                    1280: 1 //BREAKPOINT_DESKTOP
+                }}
+                className={MasonryStyles.MasonryGrid}
+                columnClassName={MasonryStyles.MasonryGridColumn}
+                >
+                    <RecipeCard
+                    idName="weed-pesto"
+                    title="Ogräspesto"
+                    ingredientsContent={<>
+                        <RecipeContent.WeedPestoIngredients/>
+                    </>}
+                    instructionsContent={<>
+                        <RecipeContent.WeedPestoInstructions/>
+                    </>}
+                    />
+                    <RecipeCard
+                    idName="fried-dandelion-buds"
+                    title="Stekta Maskrosknoppar"
+                    ingredientsContent={<>
+                        <RecipeContent.FriedDandelionBudsIngredients/>
+                    </>}
+                    instructionsContent={<>
+                        <RecipeContent.FriedDandelionBudsInstructions/>
+                    </>}
+                    />
+                </Masonry>
+                <FloraContent/>
             </div>
-            
-            <hr className={Styles.LineBreak}/>
-            <h1 className={Styles.Title}>KLASSIFICERING AV ÖRTER EFTER ANVÄNDNINGSOMRÅDE</h1>
-            <ZigZag contentData={[ Paragraph1, Paragraph2, Paragraph3, Paragraph4, Paragraph5, Paragraph6, Paragraph7, Paragraph8, Paragraph9, Paragraph10, Paragraph11, Paragraph12 ]}/>
-        
-            <Masonry
-            breakpointCols={{
-                default: 2,
-                1280: 1 //BREAKPOINT_DESKTOP
-            }}
-            className={MasonryStyles.MasonryGrid}
-            columnClassName={MasonryStyles.MasonryGridColumn}
-            >
+        )
+    };
 
-                <RecipeCard
-                idName="weed-pesto"
-                title="Ogräspesto"
-                ingredientsContent={<>
-                    <RecipeContent.WeedPestoIngredients/>
-                </>}
-                instructionsContent={<>
-                    <RecipeContent.WeedPestoInstructions/>
-                </>}
-                />
-
-                <RecipeCard
-                idName="fried-dandelion-buds"
-                title="Stekta Maskrosknoppar"
-                ingredientsContent={<>
-                    <RecipeContent.FriedDandelionBudsIngredients/>
-                </>}
-                instructionsContent={<>
-                    <RecipeContent.FriedDandelionBudsInstructions/>
-                </>}
-                />
-
-            </Masonry>
-
-            <FloraContent/>
-
-        </div>
+    return(
+        <Routes>
+            <Route index element={<DisplayHerbsForHumansPage/>}/>
+        </Routes>
     )
 };
 

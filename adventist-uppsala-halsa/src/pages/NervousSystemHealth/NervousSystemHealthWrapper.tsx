@@ -1,5 +1,7 @@
+import { useEffect } from "react";
 import ZigZag from "../../components/ZigZag/ZigZag";
 import Styles from "./NervousSystemHealthWrapper.module.css";
+import { Route, Routes } from "react-router-dom";
 
 const NervousSystemHealthWrapper = () => {
     const Paragraph1 = () => {
@@ -222,19 +224,31 @@ const NervousSystemHealthWrapper = () => {
         </>
     }
 
+    function DisplayNervousSystemHealthPage() {
+        useEffect(() => {
+            document.title = "UA Hälsa | Hälsa För Nervsystem";
+        }, []);
+
+        return(
+            <div className={Styles.NervousSystemHealthWrapperView}>
+                <h1 className={Styles.Title}>{"HÄLSA FÖR NERVSYSTEMET"}</h1>
+                <ZigZag contentData={[ Paragraph1, Paragraph2, Paragraph3, Paragraph4, Paragraph5, Paragraph6, Paragraph7, Paragraph8, Paragraph9 ]}/>
+
+                <hr className={Styles.LineBreak}/>
+                <h1 className={Styles.Title}>DEPRESSION</h1>
+                <ZigZag contentData={[ Paragraph10, Paragraph11, Paragraph12, Paragraph13, Paragraph14, Paragraph15, Paragraph16, Paragraph17, Paragraph18, Paragraph19, Paragraph20, Paragraph21, Paragraph22 ]}/>
+
+                <hr className={Styles.LineBreak}/>
+                <h1 className={Styles.Title}>SJUKDOMAR I NERVSYSTEMET</h1>
+                <ZigZag contentData={[ Paragraph23, Paragraph24, Paragraph25, Paragraph26, Paragraph27, Paragraph28, Paragraph29, Paragraph30, Paragraph31, Paragraph23, Paragraph33, Paragraph34, Paragraph35, Paragraph36, Paragraph37, Paragraph38, Paragraph39 ]}/>
+            </div>
+        )
+    }
+
     return(
-        <div className={Styles.NervousSystemHealthWrapperView}>
-            <h1 className={Styles.Title}>{"HÄLSA FÖR NERVSYSTEMET"}</h1>
-            <ZigZag contentData={[ Paragraph1, Paragraph2, Paragraph3, Paragraph4, Paragraph5, Paragraph6, Paragraph7, Paragraph8, Paragraph9 ]}/>
-
-            <hr className={Styles.LineBreak}/>
-            <h1 className={Styles.Title}>DEPRESSION</h1>
-            <ZigZag contentData={[ Paragraph10, Paragraph11, Paragraph12, Paragraph13, Paragraph14, Paragraph15, Paragraph16, Paragraph17, Paragraph18, Paragraph19, Paragraph20, Paragraph21, Paragraph22 ]}/>
-
-            <hr className={Styles.LineBreak}/>
-            <h1 className={Styles.Title}>SJUKDOMAR I NERVSYSTEMET</h1>
-            <ZigZag contentData={[ Paragraph23, Paragraph24, Paragraph25, Paragraph26, Paragraph27, Paragraph28, Paragraph29, Paragraph30, Paragraph31, Paragraph23, Paragraph33, Paragraph34, Paragraph35, Paragraph36, Paragraph37, Paragraph38, Paragraph39 ]}/>
-        </div>
+        <Routes>
+            <Route index element={<DisplayNervousSystemHealthPage/>}/>
+        </Routes>
     )
 };
 
