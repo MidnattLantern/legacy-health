@@ -504,6 +504,180 @@ const FloraContent = () => {
                 <li>Används för att behandla muskelsmärta</li>
                 <li>Slottergubben hjälper till i läkningsprocessen av ytliga åderbråck</li>
             </Article>
+            <Article title="Småborre (Agrimonia eupatoria)">
+                <li>Den övre blommande delen de nedre stjälkbladen används medicinskt</li>
+                <li>Innehåller tanniner, flavonoider, kiselsyra</li>
+                <li>Sammandragande, antibiotika, blodrenare, urindrivande, antiinflammatorisk, för behandling av inflammationer i mun- och svalgslemhinnan, mild gastroenterit, aptitstimulerande medel, förbättrar gallans funktion och leverns avgiftande aktivitet, för milda ytliga inflammationer i huben, bölder, gallsten, kolit, diarré</li>
+                <li>Det brukar blandas med salvia och ringblomma för fotbad; blandat med johannesört, bra mot akne och som hudvårdsprodukt</li>
+                <li>Du kan göra alkoholextrakt som ska förvaras i mörk glasflaska</li>
+                <li>Som munvatten, en av de bästa att gurgla med för inflammation stämband, tandkött, svalg och munslemhinna</li>
+                <li>Lämplig som tilläggsbehandling i form av badkurer vid långvariga reumatiska besvär och svårläkta sår</li>
+            </Article>
+            <Article title="Stor kardborre (Arctium lappa)">
+                <li>För medicinska ändamål bör roten av den första årets icke-blommande växten samlas in mellan oktober och april, som är tät, köttig och har bitter smak</li>
+                <li>Bra hårvårdsprodukt, förhindrar håravfall, mjäll och fett i hårbotten</li>
+                <li>Innehåller inulin, slem, bitterämnen, organiska syror</li>
+                <li>Bra vätskedrivande, blod renare, gallstens- och njurstensupplösare, diaforetiskt</li>
+                <li>Rekommenderas för behandling av eksem och svårläkta sår på huden</li>
+                <li>Dess extrakt används som en salva mot reumatisk muskel- och ledvärk</li>
+            </Article>
+            <Article title="Styvmorsviol (Viola tricolor)">
+                <li>Indicerat för epilepsi, astma, hudsjukdomar, eksem, kikhosta, bronkit, diuretika, reumatism och cystit, slemlösande medel</li>
+                <li>Dess extrakt är antiinflammatoriskt, antibakteriellt, lugnande, antiviralt, immunförstärkande, vasodilator, anticancer</li>
+                <li>Hela växten innehåller antioxidanter och flavonoider, samt aminosyror, salicylater, alkaloider, eteriska oljor, slem, saponiner, vax, vitamin A och C</li>
+                <li>Kardiovaskulära sjukdomar, mild blodtrycksänkande, diabetes, leverproblem, inflammationer, immunförsvars problem</li>
+                <li>Används externt för fet, aknebenägen hud och för att behandla infantilt seborroiskt eksem</li>
+                <li>Säkert att konsumera, har en lätt mintig smak</li>
+            </Article>
+            <Article title="Såpnejlika (Saponaria officinalis)">
+                <li>Dess rhizomer med rötter skördas för medicinska ändamål</li>
+                <li>Dess te är slemlösande, mot ont i halsen, milt diuretikum, antireumatiskt, rengörande, används vid behandling av inälvsmask med lavemang</li>
+                <li>Kan användas som tvål på grund av dess saponininnehåll, känsliga tyger tvättas fortfarande med det idag</li>
+            </Article>
+            <Article title="Tiggarnöt (Tribulus terrestris)">
+                <li>Används mot lever- och njursjukdomar, konjunktivit och huvudvärk, för att förbättra den sexuella förmågan hos båda könen, och har en positiv effekt på det kardiovaskulära systemet genom att sänka kolesterolnivåerna</li>
+                <li>I norra Asien konsumeras som mat</li>
+                <li>Används som en allmän tonic</li>
+                <li>Minskar klimakteriebesvär, påskyndar återhämtningen vid hjärtproblem, förbättrar blodcirkulationen, ökar kroppens immunitet, minskar trötthet och nervösitet, främjar syretillförseln till hjärnan, stimulerar minnet, reglerar blodsockernivån hos diabetiker</li>
+                <li>Antiinflammatorisk, anticancer, smärtstillande</li>
+            </Article>
+            <Article title="Timjan (Thymus vulgaris)">
+                <li>Varje typ är en medicinalväxt</li>
+                <li>Vi plockar örtens blommande lövskott utan stjälk</li>
+                <li>Dess eteriska oljor: tymol och carvacrol har bakteriedödande, desinficerande, karminativa och kramplösande effekter</li>
+                <li>Halsinflammation lindras genom att tugga färska blad</li>
+                <li>Stimulerar matsmältningen, många använder den vid andningsbesvär</li>
+                <li>Dess te används för att gurgla med vid hosta eller halsont</li>
+                <li>Höjer lågt blodtryck, lindrar externt klåda orsakad av insektsbett</li>
+                <li>Det lugnar musklerna, lämpligt för trötta fötter genom fotbad</li>
+                <li>Lämpligt för bad, används även som krydda</li>
+            </Article>
+            <Article title="Tistelgullfrö (Xanthium spinosum)">
+                <li>Används för hydrofobi, rabies, feber, diarré, cancer, inflammatoriska sjukdomar till exempel reumatoid artrit</li>
+                <li>Dess te konsumeras mot prostataförstoring</li>
+                <li>Drick dess te i de tidiga stadierna av cystopielit och njursten</li>
+            </Article>
+            <Article title="Trampört (Polygonum aviculare)">
+                <li>Den ovanjordiska delen samlas in för medicinska ändamål</li>
+                <li>Innehåller flavonoider, vax, slem, eterisk olja, tannin, sockerarter, fetter, kiselsyra, salicilsyra, mineraler och C-vitamin</li>
+                <li>Sammandragande, antidiarré, urindrivande, blodtryckssänkande och mineraliserande</li>
+                <li>Förbättrar anemi, återhämtning, bra aktiv ingrediens i kampen mot reumatism, lungsjukdomar, gikt</li>
+                <li>Externt sårsammandragande och bra mot hemorrojder</li>
+                <li>Hemostatisk, därför kan den användas vid mag-, tarm- och lungblödningar, såväl som mot enterit, inälvsmaskar, förstorning eller inflammation i prostatakörteln, njur- och blåsproblem vid stenbildning</li>
+            </Article>
+            <Article title="Vildhallonblad">
+                <li>Ett värdefullt elixir som hjälper till med befruktning, ägglossning och implantation och förbättrar äggkvaliteten</li>
+                <li>Stärker blodkärlsväggarna och håller urinsyran i ordning, bra mot diarré</li>
+                <li>Används tillsammans med kustdaggkåpa men kan även drickas för sig</li>
+            </Article>
+            <Article title="Vitplister (Lamium album)">
+                <li>Vi samlar örtens blommande lövskott för dess läkande effekt</li>
+                <li>Innehåller iridoidglykosider, triterpen saponiner, slem, tanniner, flavonoider, eterisk olja</li>
+                <li>Har bevisad effekt för luftvägssjukdomar, katarral och infektionssjukdomar i urinvägarna, såväl som mag- och tarmbesvär, förstorad prostata, blödningar, näsblod, tarmkramper, matsmältningsbesvär, nervösa störningar under klimakteriet, kvinnliga flytningar, menstruationssmärtor</li>
+                <li>Externt används det för att minska hudsjukdomar, brännskador, åderbråck, hemorrojder, bensår, gikttumörer, inflammation i munhålan och halsen</li>
+                <li>Kan användas i form av extrakt, te, lokala lavemang, omslag, i badvatten, ätbart rå eller tillagad</li>
+            </Article>
+            <Article title="Vårtbjörk (Betula pendula)">
+                <li>Unga blad plockas som sedan skållas eller blötläggs för att göra te</li>
+                <li>C vitamin, mineraler: Ca, Mg, K, Fe, flavonoider, antioxidanter, saponiner, alkoholer</li>
+                <li>Det stärker immunförsvaret och skelettet, hjälper till med blodbildning, korrekt funktion av nervsystemet, muskelfunktion, spelar en viktig roll i att neutralisera fria radikaler och på så sätt fördröja åldrande och skydda mot cellskador, antiinflammatoriskt, regelbunden konsumtion hjälper mot artrit, reumatism, urindrivande, hjälper njurfunktionen och förhindrar bildning av njursten, avgiftar, används även vid magbesvär</li>
+            </Article>
+            <Article title="Våtarv (Stellaria media)">
+                <li>På 1600-talet användes den mot skabb, idag används den mot hudsjukdomar, bronkit, reumatiska smärtor, ledvärk, mensvärk och som grötomslag mot skärsår och blåmärken</li>
+                <li>Ätbar, används ofta rå i sallader, har en söt smak, kan ätas stekt eller kokt, tack vare sin höga järnhalt används den mot anemi, som grötomslag på hudsår</li>
+                <li>Innehåller saponiner som är giftiga för vissa fiskarter</li>
+                <li>Rik på vitamin A, C, såväl som Mg, P, kvarts och protein, det har antioxidant, antiinflammatorisk, svampdödande, smärtstillande, antidiabetiska och ångestdämpande effekter</li>
+                <li>Njur- och leverrengöringsmedel, förstör hepatit B-viruset, stenupplösande, ges till sjuka för dess närande, uppfriskande effekt, dess te rekommenderas mot tarmblödning</li>
+            </Article>
+            <Article title="Vänderot (Valeriana officinalis)">
+                <li>Örtens rot och rhizom används för medicin, som samlas in på våren och hösten, rengörs torrt och torkas sedan snabbt i skuggan; dess blad kan ha olika former</li>
+                <li>Innehåller eterisk olja, valepotriater, alkaloid, sesquiterpenes, eugenol, vitaminer B1, B2, B3, B5, B6, C, mineraler Ca, Mg, Fe, Zn, Cu</li>
+                <li>Effektivt lugnande medel, lugnande, mot hysteri, nervositet, nervösa störningar i mag- tarmsystemet, kardiovaskulära systemet, stress; det har använts sedan urminnes tider för sömnstörningar och sömnlöshet, huvudvärk, migrän, epilepsi, förbättrar depression, mot uppblåsthet, matsmältning och immunförsvar, för behandling av klimakteriets värmevallningar, minskar avsevärt hjärnans glukosmetabolism, muskelspasmer, tarmirritation; externt för eksem, sår, antiinflammatorisk, smärtstillande</li>
+                <li>Användbart i form av extrakt, rå pulver blandat i mat, te, badvatten</li>
+            </Article>
+            <Article title="Åkerfräke (Equisetum arvense)">
+                <li>Blod renare, diuretikum, hemostatisk, effektiv mot hosta, även bra mot reumatism och gikt</li>
+                <li>Kan användas för sköra naglar och håravfall</li>
+                <li>Hjälper sårläkning, effektivt för urinvägsinfektioner, tandkötts-, mun- och halsinfektioner, gurgling är effektiv, drick teet för TB och astma</li>
+                <li>Förstärkar immunförsvaret, även användbart i badvatten för njursand och vid njurbäckeninflammation; badtid 15 minuter</li>
+                <li>Även effektiv som kompress</li>
+            </Article>
+            <Article title="Åsnetörne (Ononis spinosa)">
+                <li>Naturläkemedel mot njur- och blåsproblem</li>
+                <li>Växtens rot och blommande bladskott används för medicinska ändamål</li>
+                <li>Används för njur- och blåssjukdomar, är ett bra diuretikum, förhindrar bildandet av urin stenar</li>
+                <li>Det hornliknande rothuvudet tas bort vid uppsamling</li>
+                <li>Vid terapi, drick 2-3 koppar te dagligen</li>
+                <li>Det användes för gikt, reumatism, ödem, njurbäckeninflammation, cystit, eksem och andra hudsjukdomar, hemorrojder, kronisk förstoppning och proktit</li>
+                <li>Antiinflammatorisk, hjälper till att utsöndra klor och natrium</li>
+            </Article>
+            <Article title="Äkta vallört (Symphytum officinale)">
+                <li>Växten för benfrakturer och muskelskador</li>
+                <li>Roten innehåller flera aktiva ingredienser, men bladen används</li>
+                <li>Används i form av krämer och omslag i mosad form</li>
+                <li>Hjälper till att läka frakturer, stukningar, ryckningar, blåmärken</li>
+                <li>Man kan lita på dess läkande effekt vid muskel-, led-, nervinflammation och tendinit</li>
+                <li>En av dess huvudsakliga aktiva ämnen, allantoin, stimulerar blodtillförseln och ökar cellregenereringsprocesserna</li>
+                <li>Dess extrakt är en bra benförstärkare, främjar ärrbildning vid benfraktur, dess epitel- och cellbildande effekt stimulerar sårläkning, är även utmärkt vid åderbråck och tandlossing</li>
+                <li>Rekommenderas inte för användning på öppna sår, och bör inte heller användas invärtes i överskott eftersom den är giftig för levern</li>
+                <li>Det rekommenderas att samla innan blomningen</li>
+            </Article>
+            <Article title="Älgört (Filipendula ulmaria)">
+                <li>Den blommande lummiga delen av örten bör samlas i juli-augusti</li>
+                <li>Känd för sina goda urindrivande, blodrenande och febernedställande effekter</li>
+                <li>Smärtstillande, dess te kan drickas mot diarré</li>
+                <li>Används även mot nefrit, cystit och reumatism, sammandragande, tonic</li>
+                <li>Dess te kan kompletteras med lindblommor, vi kan göra läsk av den</li>
+                <li>Att lämna 1-2 teskedar torkade blommor i en kopp kallt vatten över natten har bäst effekt</li>
+            </Article>
+            <Article title="Ärenpris (Veronica officinalis)">
+                <li>Det blommande skottet används som medicin</li>
+                <li>Innehåller iridoider, flavonoider, triterpen saponiner, kanelsyraderivat</li>
+                <li>Lindrar mag-, tarm- och reumatiska besvär, löser upp avlagringar i luftvägarna vid förkylning, är hostdämpande, mot diarré, blod renare, matsmältningsstimulerande och används även mot ledvärk</li>
+                <li>Användbar som te, alkoholextrakt</li>
+                <li>Inte att förväxla med teveronica</li>
+                <li>Avgiftande, effektivt för kroniska eksem, inflammatoriska och svårläkta sår, lugnande, förbättrar minnet, eliminerar yrsel, bra för lever- och mjältsjukdomar</li>
+                <li>Dess alkoholhaltiga extrakt kan ha en läkande effekt på reumatiska och giktsjukdomar</li>
+            </Article>
+            <Article title="Ögontröst (Euphrasia)">
+                <li>Plocka/beskär blommorna i midsommar försiktigt för att inte skada plantan</li>
+                <li>Det är utmärkt botemedel mot vissa ögonsjukdomar, som till exempel vid konjunktivit, vagel och hösnuva</li>
+                <li>Du kan använda omslag externt för att slappna av och lugna trötta ögon</li>
+                <li>Dess te är användbart vid mag- och tarmbesvär och har en immunförsvarsstärkande effekt</li>
+                <li>Ögondroppar eller salvor gjorda av extrakt av dess blommor är bra för ögoninflammation, ögonsmärta och förbättrar synen</li>
+                <li>Välkänd för sina desinficierande, antimikrobiella och antiinflammatoriska effekter, även användbart mot hosta</li>
+                <li>Beläget i bergsområden, i utkanten av skogar, är dess blad gröna även vintertid</li>
+                <li>En sann naturskatt, som finns på Gotland, erkänd och älskad över hela världen för sina helande egenskaper och skönhet</li>
+            </Article>
+            <Article title="Ölandskungsljus (Verbascum densiflorum)">
+                <li>Blommorna plockas utan foderbladen tidigt på morgonen efter att daggen har avdunstat och sedan måste de torkas snabbt i starkt solljus</li>
+                <li>Används för katarral och inflammatoriska sjukdomar i de övre luftvägarna, minskar hostimpulser, förbättrar immuniteten</li>
+                <li>Antiinflammatorisk, lugnande, smärtstillande, urindrivande, smakgivande och slemlösande</li>
+                <li>Dess te är användbart både internt och externt för hosta, hemorrojder, brännskador, köldskador, furunkulosbölder, stickningar</li>
+                <li>Saponinerna de innehåller förhindrar gällandning</li>
+            </Article>
+            <Article title="Lackticka (Ganoderma lucidum)">
+                <li>Den kan hittas på trädstammar med svag livskraft, rötter, lövskogar, men även på andra ställen</li>
+                <li>Saprofytisk, kineserna har konsumerat det i tusentals år och utnyttjat dess medicinska egenskaper</li>
+                <li>Har en gynsamt effekt på det kardiovaskulära systemet, är närvlugnande, immunförstärkande, antiinflammatorisk och dess dagliga användning bidrar till att berika kroppen med vitaminer, mineraler och aminosyror</li>
+                <li>Levertonic, ökar ämnesomsättningen, anti-cancer, sårläkande, mot reumatism, botar lunginflammation, bakteriedödande</li>
+                <li>Är inte ätbar; kan användas i extrakt-, te- eller pulverform</li>
+                <li>Liknande arter från familjen Ganoderma har liknande effekter: Ganoderma applanatum & Ganoderma tsugai</li>
+            </Article>
+            <Article title="Sidenticka (Trametes versicolor)">
+                <li>Oätlig, saprofag, medicinsk svamp som finns på döda trädstammar</li>
+                <li>Innehåller oleinsyra, alkaloider, glykoproteiner, polysackarider, aromatiska och heterocykliska komponenter</li>
+                <li>Leverskyddande, antimikrobiell, antiviral, antitumör, smärtstillande, immunförstärkande, antioxidant</li>
+                <li>{`Rekommenderas vid följande behandlingar: immunbrist(HIV, HPV), cancerformer som till exempel skelettcancer, levercancer, prostatacancer, lung- och bröstcancer, reumatism, influensa, herpes, även för att stärka mjälten och levern, förbättrar utsöndringen av gifter, tar bort slem, kronisk gulsot, trötthet, inflammation i de övre luftvägarna, matsmältningsorganen och urinvägarna, stödjer cellens självförsvar genom att förhindra spridning av cancerceller, minskar biverkningarna av strålbehandling, mot åderförkalkning, diabetes, åldrande och neurodegenerativa sjukdomar: demens, Parkinsons med flera`}</li>
+                <li>Vi gör te av det, vissa maler det till pulver och konsumerar det i mat eller gör ett extrakt</li>
+            </Article>
+            <Article title="Sprängticka (Inonotus obliquus)">
+                <li>Växer på trädstammar, oftast på björk, dess sammansättning beror också på moderträdet</li>
+                <li>Innehåller polysackarider, melanin, fenolföreningar, triterpener, är världens rikaste källa till antioxidanter</li>
+                <li>Skyddar mot bakteriella och virussjukdomar, binder fria radikaler, mot maligna cellförökning: sarkom, melanom, lever- och kolontumörer, leukemi, lungcancer med mera; det har visat sig vara effektivt mot kroniska inflammatoriska besvär, skyddar blodkärlsväggarna, hjälper till med kroniska inflammatoriska tarmsjukdomar, hjälper till med fettomsättningen, sänker kolesterol och minskar därigenom åderförkalkning, kärlsammandragning, högt blodtryck, är blodförtunnande, förbättrar cirkulationen, bromsar blodsockerhöjningen, diabetes och är effektiv mot psoriasis</li>
+                <li>Är inte ätbart, vi gör te av det, bitarna kan kokas flera gånger, tills tevattnet inte längre blir brunt, kan även användas i form av extrakt eller pulver</li>
+                <li>Möglar lätt, så den måste förvaras torrt</li>
+            </Article>
         </div>
     )
 };
