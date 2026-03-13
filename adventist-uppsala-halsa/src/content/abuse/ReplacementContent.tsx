@@ -42,7 +42,7 @@ const CarobContent = () => {
         <br/>
         <li className={Styles.ListItem}>{"Förbättrar kvaliteten på hår och hud,"}</li>
         <li className={Styles.ListItem}>{"Lindrar matsmältningsproblem,"}</li>
-        
+        <li className={Styles.ListItem}><a href="https://axelsons.se/chaga-halsa-som-vaxer-pa-trad/" target="_blank" rel="noreferrer">{"axelsons.se/chaga"}</a></li>
     </>)
 };
 

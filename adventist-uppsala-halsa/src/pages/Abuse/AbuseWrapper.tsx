@@ -32,7 +32,7 @@ const AbuseWrapper = () => {
         return (
         <div className={Styles.AbuseWrapperView}>
             <Introduction/>
-            <h1 className={Styles.Title}>{"VANLIGA BEROENDEN"}</h1>
+            <h2 className={Styles.Title}>{"Vanliga beroenden"}</h2>
             <div className={Styles.AddictionSection}>
                 {viewportWidth < VIEWPORT_BREAKPOINT ?
                 <PhoneViewAddictionCard contentData={ContentData["sugar"]} isExpanded={sugarExpanded} setIsExpanded={setSugarExpanded}>
@@ -89,7 +89,10 @@ const AbuseWrapper = () => {
                 </LargeViewAddictionCard>
                 }
             </div>
-            <h1 className={Styles.Title}>{"ERSÄTTNING"}</h1>
+
+            <p className={Styles.DarkParagraph}>8 hälsonycklar kan hjälpa med att bryta beroenden, det dröjer 21 dagar att etablera en ny vana, efter 30 dagar sitter det.</p>
+            <h2 className={Styles.Title}>{"Ersättning"}</h2>
+
             <Masonry
             breakpointCols={{
                 default: 2,
@@ -114,7 +117,7 @@ const AbuseWrapper = () => {
                     content={<ReplacementContent.CarobContent/>}
                 />
             </Masonry>
-            <h1 className={Styles.Title}>{"HÄLSOSAMMA RECEPT"}</h1>
+            <h2 className={Styles.Title}>{"Hälsosamma recept"}</h2>
             <Masonry
             breakpointCols={{
                 default: 2,

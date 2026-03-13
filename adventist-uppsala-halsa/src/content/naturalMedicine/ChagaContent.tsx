@@ -23,6 +23,8 @@ const Effects = () => {
         <li className={Styles.AlternativeListItem}>{"Förbättrar kvaliteten på hår och hud,"}</li>
         <li className={Styles.AlternativeListItem}>{"Lindrar matsmältningsproblem,"}</li>
         <li className={Styles.AlternativeListItem}>{"Kan användas vid detox och fasta."}</li>
+        <br/>
+        <li className={Styles.ListItem}><a href="https://axelsons.se/chaga-halsa-som-vaxer-pa-trad/" target="_blank" rel="noreferrer">{"axelsons.se/chaga"}</a></li>
     </>)
 };
 

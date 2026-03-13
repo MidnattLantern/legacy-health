@@ -668,7 +668,7 @@ const FloraContent = () => {
                 <li>Oätlig, saprofag, medicinsk svamp som finns på döda trädstammar</li>
                 <li>Innehåller oleinsyra, alkaloider, glykoproteiner, polysackarider, aromatiska och heterocykliska komponenter</li>
                 <li>Leverskyddande, antimikrobiell, antiviral, antitumör, smärtstillande, immunförstärkande, antioxidant</li>
-                <li>{`Rekommenderas vid följande behandlingar: immunbrist(HIV, HPV), cancerformer som till exempel skelettcancer, levercancer, prostatacancer, lung- och bröstcancer, reumatism, influensa, herpes, även för att stärka mjälten och levern, förbättrar utsöndringen av gifter, tar bort slem, kronisk gulsot, trötthet, inflammation i de övre luftvägarna, matsmältningsorganen och urinvägarna, stödjer cellens självförsvar genom att förhindra spridning av cancerceller, minskar biverkningarna av strålbehandling, mot åderförkalkning, diabetes, åldrande och neurodegenerativa sjukdomar: demens, Parkinsons med flera`}</li>
+                
                 <li>Vi gör te av det, vissa maler det till pulver och konsumerar det i mat eller gör ett extrakt</li>
             </Article>
             <Article title="Sprängticka (Inonotus obliquus)">
@@ -683,3 +683,6 @@ const FloraContent = () => {
 };
 
 export default FloraContent;
+
+// disabled due to fact checking, originated under "Sidenticka (Trametes versicolor)"
+// <li>{`Rekommenderas vid följande behandlingar: immunbrist(HIV, HPV), cancerformer som till exempel skelettcancer, levercancer, prostatacancer, lung- och bröstcancer, reumatism, influensa, herpes, även för att stärka mjälten och levern, förbättrar utsöndringen av gifter, tar bort slem, kronisk gulsot, trötthet, inflammation i de övre luftvägarna, matsmältningsorganen och urinvägarna, stödjer cellens självförsvar genom att förhindra spridning av cancerceller, minskar biverkningarna av strålbehandling, mot åderförkalkning, diabetes, åldrande och neurodegenerativa sjukdomar: demens, Parkinsons med flera`}</li>

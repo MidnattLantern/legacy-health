@@ -9,12 +9,17 @@
     font-family: var(--font-theme-primary);
     color: var(--color-theme-primary);
     text-align: center;
+    text-transform: uppercase;
 }
 
 .Paragraph {
     font-family: var(--font-theme-secondary);
-    color: var(--color-text-paragraph);
     color: var(--color-white);
+}
+
+.DarkParagraph {
+    font-family: var(--font-theme-secondary);
+    color: var(--color-text-paragraph);
 }
 
 .ExternalLink {
