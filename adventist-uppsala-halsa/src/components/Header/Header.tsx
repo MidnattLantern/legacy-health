@@ -20,7 +20,7 @@ const Header = () => {
         return(
             <Link to="/" className={Styles.Logo}>
                 <img className={Styles.LogoIcon} src={Icon} alt="logo"/>
-                <h1 className={Styles.LogoTitle}>Adventkyrkan Hälsa</h1>
+                <h1 className={Styles.LogoTitle}>Hälsa</h1>
             </Link>
         )
     };

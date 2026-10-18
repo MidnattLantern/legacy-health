@@ -36,7 +36,7 @@ const NavigationBar = () => {
         return (
             <div className={`${Styles.LinksView} ${isExpanded && Styles.LinksViewExpanded}`}>
                 <Link to="/" onClick={() => {setIsExpanded(false)}} className={Styles.HomeLink}>
-                    <HomeIcon className={Styles.LinkIconSize}/> <p>{"Adventkyrkan Hälsa"}</p>
+                    <HomeIcon className={Styles.LinkIconSize}/> <p>{"Hälsa"}</p>
                 </Link>
                 <a href="https://uppsala.adventkyrka.se/" target="_blank" rel="noreferrer" className={Styles.Link}>
                     <ExternalLinkIcon className={Styles.LinkIconSize}/> <p>{"Adventistkyrkan Uppsala"}</p>
