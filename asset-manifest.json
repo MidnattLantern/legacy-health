@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/legacy-health/static/css/main.0d15d186.css",
+    "main.js": "/legacy-health/static/js/main.e74d6e74.js",
+    "static/js/453.15b4cdc3.chunk.js": "/legacy-health/static/js/453.15b4cdc3.chunk.js",
+    "static/media/unsplash-ambitious-studio-alcohol.webp": "/legacy-health/static/media/unsplash-ambitious-studio-alcohol.2881702235c21d0035e3.webp",
+    "static/media/unsplash-anastasiia-chepinska-caffeine.webp": "/legacy-health/static/media/unsplash-anastasiia-chepinska-caffeine.92e9c36c0aecf0f0d797.webp",
+    "static/media/unsplash-victoria-shes-nutrition.webp": "/legacy-health/static/media/unsplash-victoria-shes-nutrition.eaf68ff34c1cd94e12ab.webp",
+    "static/media/unsplash-nathan-dumlao-phone-addiction.webp": "/legacy-health/static/media/unsplash-nathan-dumlao-phone-addiction.1c7306101767d096480c.webp",
+    "static/media/unsplash-ioana-ye-trust-in-god.webp": "/legacy-health/static/media/unsplash-ioana-ye-trust-in-god.2e178bd7d38322fb6467.webp",
+    "static/media/unsplash-mauri-karlin-air.webp": "/legacy-health/static/media/unsplash-mauri-karlin-air.a56175fb702e96f079f1.webp",
+    "static/media/unsplash-melissa-askew-sunshine.webp": "/legacy-health/static/media/unsplash-melissa-askew-sunshine.7f8d0aa0967cd553c486.webp",
+    "static/media/unsplash-karolina-kolodziejczak.webp": "/legacy-health/static/media/unsplash-karolina-kolodziejczak.29ade4877b2c57ff7ce1.webp",
+    "static/media/unsplash-ashley-green-food.webp": "/legacy-health/static/media/unsplash-ashley-green-food.97b6d0edce6c989268da.webp",
+    "static/media/unsplash-shahovskaya-rest.webp": "/legacy-health/static/media/unsplash-shahovskaya-rest.6d3d61539f0a979fa9c2.webp",
+    "static/media/unsplash-nicolas-ruiz-water.webp": "/legacy-health/static/media/unsplash-nicolas-ruiz-water.a09c71a4776bd620930f.webp",
+    "static/media/unsplash-martin-dalsgaard-exersice.webp": "/legacy-health/static/media/unsplash-martin-dalsgaard-exersice.97028f507e24be1cdda4.webp",
+    "static/media/unsplash-daniel-kraus-sugar.webp": "/legacy-health/static/media/unsplash-daniel-kraus-sugar.b9062732ff02851bb512.webp",
+    "static/media/unsplash-irina-iriser-nicotine.webp": "/legacy-health/static/media/unsplash-irina-iriser-nicotine.eb0ac31a120c7a265a7e.webp",
+    "static/media/adventist-symbol-cave.png": "/legacy-health/static/media/adventist-symbol-cave.52d66fd34754db21b87b.png",
+    "static/media/burger-menu.svg": "/legacy-health/static/media/burger-menu.6f6042a139aa36a9f96d26c1523d205e.svg",
+    "index.html": "/legacy-health/index.html",
+    "static/media/external-link-icon.svg": "/legacy-health/static/media/external-link-icon.bfff7e79c572ce457b227ea239b6b021.svg",
+    "static/media/close-icon.svg": "/legacy-health/static/media/close-icon.58075adfbd5f03248ad5a44f1d183b47.svg",
+    "static/media/search-icon.svg": "/legacy-health/static/media/search-icon.74050bccf54808ed47cb3e514a0ad6b6.svg",
+    "static/media/generic-star-icon.svg": "/legacy-health/static/media/generic-star-icon.5909f60f6f6d2fd6170e1e701de5bde7.svg",
+    "static/media/home-icon.svg": "/legacy-health/static/media/home-icon.c41f4924283a16f28a68071dc0e52494.svg",
+    "main.0d15d186.css.map": "/legacy-health/static/css/main.0d15d186.css.map",
+    "main.e74d6e74.js.map": "/legacy-health/static/js/main.e74d6e74.js.map",
+    "453.15b4cdc3.chunk.js.map": "/legacy-health/static/js/453.15b4cdc3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d15d186.css",
+    "static/js/main.e74d6e74.js"
+  ]
+}
